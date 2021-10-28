@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{9327D0CD-51DC-4183-8DBF-CCC738B28128}|Default">
   <MonoDevelop.Ide.ItemProperties.HendrixCollege PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/SchoolContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
       <File FileName="Data/SchoolContext.cs" Line="13" Column="26" />
+      <File FileName="Startup.cs" Line="42" Column="45" />
+      <File FileName="Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HendrixCollege" expanded="True">
             <Node name="HendrixCollege" expanded="True">
-              <Node name="Data" expanded="True">
-                <Node name="SchoolContext.cs" selected="True" />
-              </Node>
+              <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Students" expanded="True">
@@ -22,6 +22,7 @@
                   <Node name="Index.cshtml" expanded="True" />
                 </Node>
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
