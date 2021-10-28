@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{9327D0CD-51DC-4183-8DBF-CCC738B28128}|Default">
   <MonoDevelop.Ide.ItemProperties.HendrixCollege PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
     <Files>
-      <File FileName="Data/SchoolContext.cs" Line="13" Column="26" />
-      <File FileName="Startup.cs" Line="42" Column="45" />
-      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Data/DbInitializer.cs" Line="5" Column="25" />
+      <File FileName="Program.cs" Line="36" Column="21" />
+      <File FileName="Pages/Students/Index.cshtml.cs" Line="36" Column="56" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +24,7 @@
                   <Node name="Index.cshtml" expanded="True" />
                 </Node>
               </Node>
-              <Node name="Program.cs" selected="True" />
+              <Node name="appsettings.json" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
