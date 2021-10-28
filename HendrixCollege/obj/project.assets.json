@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8/HendrixCollege/HendrixCollege.csproj",
+      "projectUniqueName": "/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/HendrixCollege.csproj",
       "projectName": "HendrixCollege",
-      "projectPath": "/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8/HendrixCollege/HendrixCollege.csproj",
+      "projectPath": "/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/HendrixCollege.csproj",
       "packagesPath": "/Users/juliebdick/.nuget/packages/",
-      "outputPath": "/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8/HendrixCollege/obj/",
+      "outputPath": "/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
