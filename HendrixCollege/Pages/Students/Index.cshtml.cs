@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using HendrixCollege.Data;
 using HendrixCollege.Models;
 using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Configuration;
 
 namespace HendrixCollege.Pages.Students
 {
@@ -51,9 +52,16 @@ namespace HendrixCollege.Pages.Students
     public class IndexModel : PageModel
     {
         private readonly SchoolContext _context;
-        public IndexModel(SchoolContext context)
+        //public IndexModel(SchoolContext context)
+        //{
+        //    _context = context;
+        //}
+        private readonly IConfiguration Configuration;
+
+        public IndexModel(SchoolContext context, IConfiguration configuration)
         {
             _context = context;
+            Configuration = configuration;
         }
 
         public string NameSort { get; set; }
@@ -62,17 +70,44 @@ namespace HendrixCollege.Pages.Students
         public string CurrentFilter { get; set; }
         public string CurrentSort { get; set; }
 
-        public IList<Student> Students { get; set; }
+        //public IList<Student> Students { get; set; }
 
-        public async Task OnGetAsync(string sortOrder)
+        ////public async Task OnGetAsync(string sortOrder)
+        //public async Task OnGetAsync(string sortOrder, string searchString)
+        //{
+        //    // using System;
+        //    NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+        //    DateSort = sortOrder == "Date" ? "date_desc" : "Date";
+        //    AgeSort = sortOrder == "Age" ? "age_desc" : "Age";
+
+        public PaginatedList<Student> Students { get; set; }
+
+        public async Task OnGetAsync(string sortOrder,
+            string currentFilter, string searchString, int? pageIndex)
         {
-            // using System;
+            CurrentSort = sortOrder;
             NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             DateSort = sortOrder == "Date" ? "date_desc" : "Date";
             AgeSort = sortOrder == "Age" ? "age_desc" : "Age";
+            if (searchString != null)
+            {
+                pageIndex = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+
+            CurrentFilter = searchString;
 
             IQueryable<Student> studentsIQ = from s in _context.Students
                                              select s;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                studentsIQ = studentsIQ.Where(s => s.LastName.Contains(searchString)
+                                       || s.FirstMidName.Contains(searchString));
+            }
 
             switch (sortOrder)
             {
@@ -85,12 +120,18 @@ namespace HendrixCollege.Pages.Students
                 case "date_desc":
                     studentsIQ = studentsIQ.OrderByDescending(s => s.EnrollmentDate);
                     break;
+                case "Age":
+                    studentsIQ = studentsIQ.OrderByDescending(s => s.Age);
+                    break;
                 default:
                     studentsIQ = studentsIQ.OrderBy(s => s.LastName);
                     break;
             }
 
-            Students = await studentsIQ.AsNoTracking().ToListAsync();
+            //Students = await studentsIQ.AsNoTracking().ToListAsync();
+            var pageSize = Configuration.GetValue("PageSize", 4);
+            Students = await PaginatedList<Student>.CreateAsync(
+                studentsIQ.AsNoTracking(), pageIndex ?? 1, pageSize);
         }
     }
 }
