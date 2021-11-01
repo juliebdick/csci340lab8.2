@@ -63,17 +63,17 @@ namespace HendrixCollege.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Major",
-                columns: table => new
-                {
-                    MajorID = table.Column<int>(type: "INTEGER", nullable: false),
-                    MajorName = table.Column<string>(type: "TEXT", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Major", x => x.MajorID);
-                });
+            //migrationBuilder.CreateTable(
+            //    name: "Major",
+            //    columns: table => new
+            //    {
+            //        MajorID = table.Column<int>(type: "INTEGER", nullable: false),
+            //        MajorName = table.Column<string>(type: "TEXT", nullable: true)
+            //    },
+            //    constraints: table =>
+            //    {
+            //        table.PrimaryKey("PK_Major", x => x.MajorID);
+            //    });
 
 
             migrationBuilder.CreateIndex(
