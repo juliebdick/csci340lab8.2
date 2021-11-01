@@ -31,7 +31,7 @@ namespace HendrixCollege.Models
         }
 
         public ICollection<Enrollment> Enrollments { get; set; }
-        public object Age { get; internal set; }
+        public int Age { get; internal set; }
     }
 }
 

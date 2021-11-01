@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{9327D0CD-51DC-4183-8DBF-CCC738B28128}|Default">
   <MonoDevelop.Ide.ItemProperties.HendrixCollege PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Students/Index.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Student.cs">
     <Files>
-      <File FileName="Models/Student.cs" Line="49" Column="4" />
+      <File FileName="Models/Student.cs" Line="34" Column="9" />
       <File FileName="Migrations/20211101015707_InitialCreate.cs" Line="76" Column="22" />
       <File FileName="Migrations/SchoolContextModelSnapshot.cs" Line="1" Column="1" />
-      <File FileName="Pages/Students/Create.cshtml.cs" Line="1" Column="1" />
+      <File FileName="Pages/Students/Create.cshtml.cs" Line="50" Column="63" />
       <File FileName="Migrations/20211101015707_InitialCreate.Designer.cs" Line="1" Column="1" />
-      <File FileName="Pages/Students/Index.cshtml.cs" Line="124" Column="72" />
+      <File FileName="Pages/Students/Create.cshtml" Line="29" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,13 +19,12 @@
               </Node>
               <Node name="Models" expanded="True">
                 <Node name="SchoolViewModels" expanded="True" />
+                <Node name="Student.cs" selected="True" />
               </Node>
               <Node name="Pages" expanded="True">
                 <Node name="Students" expanded="True">
                   <Node name="Create.cshtml" expanded="True" />
-                  <Node name="Index.cshtml" expanded="True">
-                    <Node name="Index.cshtml.cs" selected="True" />
-                  </Node>
+                  <Node name="Index.cshtml" expanded="True" />
                 </Node>
               </Node>
               <Node name="appsettings.json" expanded="True" />
