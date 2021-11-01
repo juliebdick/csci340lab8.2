@@ -79,6 +79,14 @@ namespace HendrixCollege.Migrations
                     b.ToTable("Student");
                 });
 
+            modelBuilder.Entity("HendrixCollege.Models.Major", b =>
+                {
+                    b.Property<int>("MajorID")
+                    .HasColumnType("INTEGER");
+                    b.Property<string>("MajorTitle")
+                    .HasColumnType("TEXT");
+                });
+
             modelBuilder.Entity("HendrixCollege.Models.Enrollment", b =>
                 {
                     b.HasOne("HendrixCollege.Models.Course", "Course")

@@ -63,6 +63,19 @@ namespace HendrixCollege.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Major",
+                columns: table => new
+                {
+                    MajorID = table.Column<int>(type: "INTEGER", nullable: false),
+                    MajorName = table.Column<string>(type: "TEXT", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Major", x => x.MajorID);
+                });
+
+
             migrationBuilder.CreateIndex(
                 name: "IX_Enrollment_CourseID",
                 table: "Enrollment",
@@ -84,6 +97,9 @@ namespace HendrixCollege.Migrations
 
             migrationBuilder.DropTable(
                 name: "Student");
+
+            migrationBuilder.DropTable(
+                name: "Major");
         }
     }
 }
