@@ -2,12 +2,12 @@
   <MonoDevelop.Ide.ItemProperties.HendrixCollege PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Data/DbInitializer.cs">
     <Files>
-      <File FileName="Models/Student.cs" Line="34" Column="19" />
-      <File FileName="Migrations/20211101015707_InitialCreate.cs" />
-      <File FileName="Migrations/SchoolContextModelSnapshot.cs" />
-      <File FileName="Pages/Students/Create.cshtml.cs" />
-      <File FileName="Migrations/20211101015707_InitialCreate.Designer.cs" />
-      <File FileName="Pages/Students/Create.cshtml" />
+      <File FileName="Models/Instructor.cs" Line="35" Column="26" />
+      <File FileName="Models/OfficeAssignment.cs" Line="4" Column="25" />
+      <File FileName="Models/Course.cs" Line="23" Column="65" />
+      <File FileName="Models/Department.cs" Line="6" Column="25" />
+      <File FileName="Models/Enrollment.cs" Line="1" Column="1" />
+      <File FileName="Data/SchoolContext.cs" Line="29" Column="75" />
       <File FileName="Data/DbInitializer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -18,12 +18,7 @@
               <Node name="Data" expanded="True">
                 <Node name="DbInitializer.cs" selected="True" />
               </Node>
-              <Node name="Migrations" expanded="True">
-                <Node name="20211101015707_InitialCreate.cs" expanded="True" />
-              </Node>
-              <Node name="Models" expanded="True">
-                <Node name="SchoolViewModels" expanded="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Students" expanded="True">
                   <Node name="Create.cshtml" expanded="True" />
