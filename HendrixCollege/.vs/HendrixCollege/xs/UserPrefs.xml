@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{9327D0CD-51DC-4183-8DBF-CCC738B28128}|Default">
   <MonoDevelop.Ide.ItemProperties.HendrixCollege PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Courses/Edit.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Courses/Details.cshtml">
     <Files>
-      <File FileName="Pages/Courses/DepartmentNamePageModel.cs" Line="1" Column="21" />
-      <File FileName="Pages/Courses/Create.cshtml.cs" Line="59" Column="10" />
-      <File FileName="Pages/Courses/Create.cshtml" Line="37" Column="33" />
-      <File FileName="Pages/Courses/Edit.cshtml.cs" Line="107" Column="10" />
-      <File FileName="Pages/Courses/Edit.cshtml" Line="16" Column="62" />
+      <File FileName="Pages/Courses/Delete.cshtml.cs" Line="33" Column="32" />
+      <File FileName="Pages/Courses/Delete.cshtml" Line="37" Column="67" />
+      <File FileName="Pages/Courses/Details.cshtml" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,8 +15,8 @@
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Courses" expanded="True">
-                  <Node name="Create.cshtml" expanded="True" />
-                  <Node name="Edit.cshtml" expanded="True" selected="True" />
+                  <Node name="Delete.cshtml" expanded="True" />
+                  <Node name="Details.cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>
