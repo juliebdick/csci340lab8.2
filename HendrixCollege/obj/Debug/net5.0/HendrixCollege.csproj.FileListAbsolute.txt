@@ -207,3 +207,8 @@
 /Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/obj/Debug/net5.0/Razor/Pages/Students/Details.cshtml.g.cs
 /Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/obj/Debug/net5.0/Razor/Pages/Students/Edit.cshtml.g.cs
 /Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/obj/Debug/net5.0/Razor/Pages/Students/Index.cshtml.g.cs
+/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/obj/Debug/net5.0/Razor/Pages/Courses/Create.cshtml.g.cs
+/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/obj/Debug/net5.0/Razor/Pages/Courses/Delete.cshtml.g.cs
+/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/obj/Debug/net5.0/Razor/Pages/Courses/Details.cshtml.g.cs
+/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/obj/Debug/net5.0/Razor/Pages/Courses/Edit.cshtml.g.cs
+/Users/juliebdick/OneDrive - Hendrix College/Databases and Web Systems/Lab 8/csci340lab8.2/HendrixCollege/obj/Debug/net5.0/Razor/Pages/Courses/Index.cshtml.g.cs
