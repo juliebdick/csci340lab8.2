@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{9327D0CD-51DC-4183-8DBF-CCC738B28128}|Default">
   <MonoDevelop.Ide.ItemProperties.HendrixCollege PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/About.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/About.cshtml.cs">
     <Files>
-      <File FileName="Pages/About.cshtml" Line="2" Column="9" />
+      <File FileName="Pages/About.cshtml" Line="2" Column="22" />
+      <File FileName="Pages/About.cshtml.cs" Line="8" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,8 +14,9 @@
                 <Node name="SchoolViewModels" expanded="True" />
               </Node>
               <Node name="Pages" expanded="True">
-                <Node name="Departments" expanded="True" />
-                <Node name="About.cshtml" selected="True" />
+                <Node name="About.cshtml" expanded="True">
+                  <Node name="About.cshtml.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
