@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{9327D0CD-51DC-4183-8DBF-CCC738B28128}|Default">
   <MonoDevelop.Ide.ItemProperties.HendrixCollege PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Departments/Delete.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Departments/Delete.cshtml">
     <Files>
-      <File FileName="Utility.cs" Line="3" Column="25" />
-      <File FileName="Pages/Departments/Index.cshtml" Line="53" Column="60" />
-      <File FileName="Pages/Departments/Edit.cshtml.cs" Line="17" Column="40" />
-      <File FileName="Pages/Departments/Edit.cshtml" Line="1" Column="18" />
-      <File FileName="Pages/Departments/Delete.cshtml.cs" Line="1" Column="1" />
+      <File FileName="Pages/Departments/Delete.cshtml.cs" Line="13" Column="42" />
+      <File FileName="Pages/Departments/Delete.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,9 +12,7 @@
             <Node name="HendrixCollege" expanded="True">
               <Node name="Pages" expanded="True">
                 <Node name="Departments" expanded="True">
-                  <Node name="Delete.cshtml" expanded="True">
-                    <Node name="Delete.cshtml.cs" selected="True" />
-                  </Node>
+                  <Node name="Delete.cshtml" expanded="True" selected="True" />
                   <Node name="Edit.cshtml" expanded="True" />
                 </Node>
               </Node>
