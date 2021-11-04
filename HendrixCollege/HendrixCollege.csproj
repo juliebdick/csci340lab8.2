@@ -34,13 +34,4 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0-*" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Pages\About.cshtml.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Remove="Pages\About.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Pages\About.cshtml.cs" />
-  </ItemGroup>
 </Project>
