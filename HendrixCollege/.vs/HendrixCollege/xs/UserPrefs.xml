@@ -1,19 +1,26 @@
 ﻿<Properties StartupConfiguration="{9327D0CD-51DC-4183-8DBF-CCC738B28128}|Default">
   <MonoDevelop.Ide.ItemProperties.HendrixCollege PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/SchoolContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Departments/Delete.cshtml.cs">
     <Files>
-      <File FileName="Models/Department.cs" Line="27" Column="9" />
-      <File FileName="Data/SchoolContext.cs" Line="1" Column="1" />
+      <File FileName="Utility.cs" Line="3" Column="25" />
+      <File FileName="Pages/Departments/Index.cshtml" Line="53" Column="60" />
+      <File FileName="Pages/Departments/Edit.cshtml.cs" Line="17" Column="40" />
+      <File FileName="Pages/Departments/Edit.cshtml" Line="1" Column="18" />
+      <File FileName="Pages/Departments/Delete.cshtml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HendrixCollege" expanded="True">
             <Node name="HendrixCollege" expanded="True">
-              <Node name="Data" expanded="True">
-                <Node name="SchoolContext.cs" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Departments" expanded="True">
+                  <Node name="Delete.cshtml" expanded="True">
+                    <Node name="Delete.cshtml.cs" selected="True" />
+                  </Node>
+                  <Node name="Edit.cshtml" expanded="True" />
+                </Node>
               </Node>
-              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
